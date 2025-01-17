@@ -8,7 +8,7 @@
     "report": "npx allure open allure-report"
   },
   "keywords": [],
-  "author": "",
+  "author": "Diego Portella",
   "license": "ISC",
   "dependencies": {
     "@wdio/allure-reporter": "^7.10.1",

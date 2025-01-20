@@ -1,16 +1,19 @@
-const{localConf} = require('./local.conf')
+const { bsConf } = require('./bs.conf');
+const { localConf } = require('./local.conf');
+const { sauceConf } = require('./sauce.conf');
 
 require('dotenv').config()
 
 function getConfig(){
     switch (process.env.ENVIRONMENT) {
         case 'local': default:
-            return localConf    
+            return localConf
         case 'browserstack':
-            return {}
+            return bsConf
         case 'saucelabs':
-            return {}
+            return sauceConf
     }
 }
+
 
 exports.config = getConfig()

@@ -1,6 +1,0 @@
-PLATFORM=android
-ENVIRONMENT=browserstack
-REPORT=true
-
-BROWSERSTACK_USERNAME==DiegoPortella_eMaNzO
-BROWSERSTACK_ACCESS_KEY=oUpTxKqE4fopusNszkUk
